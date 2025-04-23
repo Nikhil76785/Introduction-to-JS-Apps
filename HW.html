@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts</title>
+</head>
+
+<body>
+    <h1>Prompt</h1>
+    <script>
+        var x = prompt("Welcome to Area Calculator. \n Please Enter your Choice. \n1. Perimeter of Rectangle. \n2. Perimeter of Triangle. \n3. Perimeter of Circle. \n4. Perimeter of Parallelogram")
+
+        if (x == 1) {
+            var length = prompt("Enter A Length:")
+            var breadth = prompt("Enter A Breadth:")
+            var res1 = (Number(length) + Number(breadth))*2
+            alert(res1)
+        }
+
+        if (x == 2) {
+            var s1 = prompt("Enter First Side:")
+            var s2 = prompt("Enter Second Side:")
+            var s3 = prompt("Enter Third Side:")
+            var res2 = Number(s2) + Number(s1) + Number(s3)
+            alert(res2)
+        }
+
+        if (x == 3) {
+            var radius = prompt("Enter A Radius:")
+            var res3 = Number(radius) * 2 * 3.14
+            alert(res3)
+        }
+
+        if (x == 4) {
+                var lengthp = prompt("Enter A Length:")
+                var heightp = prompt("Enter A Height:")
+                var res4 = (Number(lengthp) + Number(heightp)) * 2
+                alert(res4)
+            }
+    </script>
+</body>
+
+</html>
