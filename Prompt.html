@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts</title>
+</head>
+<body>
+    <h1>Prompt</h1>
+    <script>
+        var x = prompt("Welcome to Area Calculator. \n Please Enter your Choice. \n1.Area of Rectangle. \n2.Area of Triangle. \n3.Area of Circle. \n4.Area of Parallelogram")
+
+        if (x == 1){
+            var length = prompt("Enter A Length:")
+            var breadth = prompt("Enter A Breadth:")
+            var res1 = Number(length) * Number(breadth)
+            alert(res1)
+        }
+
+        if (x == 2) {
+                var height = prompt("Enter A Height:")
+                var base = prompt("Enter A Base:")
+                var res2 = Number(height) * Number(base) * 0.5
+                alert(res2)
+            }
+
+        if (x == 3) {
+                var radius = prompt("Enter A Radius:")
+                var res3 = Number(radius) * 2 * 3.14
+                alert(res3)
+            }
+
+        if (x == 4) {
+                var heightp = prompt("Enter A Height:")
+                var basep = prompt("Enter A Base:")
+                var res4 = Number(heightp) * Number(basep)
+                alert(res4)
+            }
+    </script>
+</body>
+</html>
